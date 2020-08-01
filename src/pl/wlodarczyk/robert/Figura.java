@@ -8,7 +8,7 @@ public class Figura {
         this.name = name;
     }
 
-    public int getField () {
+    public int getField() {
 
         return 0;
     }
