@@ -10,13 +10,16 @@ public class Main {
         Rectangle rectangle = new Rectangle("Prostokąt", 5, 6);
         System.out.println(rectangle.getField());
 
-        Figura[] figury = {square, rectangle};
+        IFieldable[] figury = {square, rectangle};
 
-        for (Figura figura : figury) {
+        for (IFieldable figura : figury) {
 
             System.out.println(figura.getField());
 
         }
+
+        square.printDate();
+        rectangle.printDate();
 
     }
 }

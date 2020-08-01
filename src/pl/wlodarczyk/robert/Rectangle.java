@@ -1,6 +1,6 @@
 package pl.wlodarczyk.robert;
 
-public class Rectangle extends Figura {
+public class Rectangle extends Figura implements DayTable {
 
     private int a;
     private int b;

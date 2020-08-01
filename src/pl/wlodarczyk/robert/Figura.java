@@ -1,6 +1,6 @@
 package pl.wlodarczyk.robert;
 
-public class Figura {
+public abstract class Figura implements IFieldable {
 
     private String name;
 
@@ -8,10 +8,6 @@ public class Figura {
         this.name = name;
     }
 
-    public int getField() {
-
-        return 0;
-    }
 
     public String getName() {
         return name;

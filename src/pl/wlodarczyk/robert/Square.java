@@ -1,6 +1,6 @@
 package pl.wlodarczyk.robert;
 
-public class Square extends Figura {
+public class Square extends Figura implements DayTable {
 
     private int a;
 
